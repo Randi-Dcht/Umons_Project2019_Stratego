@@ -1,0 +1,54 @@
+<project name ="Stratego">
+
+<!--Auteur : Dochot.be (Etudiant Umons Informatique)-->
+<!--Fichier inspiré de Mr Devillez-->
+
+<!--permet de compiler le jeu pour avoir les fichier .class-->
+  <target name="build">
+    <mkdir dir="compile"/>
+    <javac srcdir="code" destdir="compile" encoding="utf8" classpath="code/lib/junit-4.12.jar:code/lib/jfxrt.jar">
+    </javac>
+  </target>
+
+
+<!--permet de supprimer les fichiers dans sauveguarde-->
+  <target name="new">
+    <delete dir="./misc/FichierResumer"/>
+    <mkdir  dir="./misc/FichierResumer"/>
+
+    <delete dir="./misc/FichierSauvegarde"/>
+    <mkdir  dir="./misc/FichierSauvegarde"/>
+  </target>
+
+
+<!--permet de supprimer les fichiers .class et la javadoc-->
+  <target name="clean">
+    <delete dir ="compile"/>
+    <delete dir ="documentation"/>
+  </target>
+
+
+<!--permet de lancer des test unitaires-->
+  <target name="test" depends="build" >
+    <java classname="org.junit.runner.JUnitCore" classpath="compile:code/lib/junit-4.12.jar:code/lib/hamcrest-core-1.3.jar">
+       <arg value="TestProjet"/>
+    </java>
+  </target>
+
+<!--permet de générer la documentation du jeu-->
+  <target name="doc">
+    <mkdir dir="documentation"/>
+    <javadoc sourcepath="code/src" destdir="documentation" >
+        <fileset dir="code/src" defaultexcludes="yes">
+             <include name="**" />
+        </fileset>
+    </javadoc>
+  </target>
+
+
+<!--permet de lancer le jeu en interface graphique-->
+  <target name="run">
+    <java classname="MainGUI" classpath="compile:code/lib/jfxrt.jar"/>
+  </target>
+
+</project>

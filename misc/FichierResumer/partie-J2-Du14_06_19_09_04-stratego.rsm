@@ -1,0 +1,46 @@
+Une nouvelle partie démarre ...
+nom de la méthode   :      explication
+___________________________________________________
+MainGui : choix de partie à 2
+createTray : création d'un tableau de 10 sur 10
+createBarriers : création de 8 obstacles.
+findCase : recherche de la case [2];[4]
+findCase : recherche de la case [3];[4]
+findCase : recherche de la case [2];[5]
+findCase : recherche de la case [3];[5]
+findCase : recherche de la case [6];[4]
+findCase : recherche de la case [7];[4]
+findCase : recherche de la case [6];[5]
+findCase : recherche de la case [7];[5]
+Player : le joueur est joueur1-Speudo de couleur rouge
+Player : le joueur est joueur2-Speudo de couleur orange
+createPiece : création des pieces du joueur : joueur1-Speudo de couleur rouge avec 9 pièces
+HumanPlayer-assignment : le joueur qui suit joueur1-Speudo de couleur rouge est joueur2-Speudo de couleur orange
+createPiece : création des pieces du joueur : joueur2-Speudo de couleur orange avec 9 pièces
+HumanPlayer-assignment : le joueur qui suit joueur2-Speudo de couleur orange est joueur1-Speudo de couleur rouge
+placeMe : drapeau en (5,2)
+placeMe : bombe en (6,2)
+placeMe : eclaireur en (6,2)
+placeMe : bombe en (9,0)
+placeMe : drapeau en (0,0)
+placeMe : capitaine en (1,0)
+placeMe : capitaine en (0,0)
+placeMe : drapeau en (0,3)
+placeMe : capitaine en (4,2)
+placeMe : eclaireur en (5,0)
+placeMe : sergent en (9,3)
+placeMe : sergent en (2,1)
+placeMe : drapeau en (0,6)
+placeMe : bombe en (3,7)
+placeMe : eclaireur en (6,8)
+placeMe : sergent en (9,9)
+placeMe : sergent en (7,8)
+placeMe : capitaine en (8,9)
+placeMe : capitaine en (4,8)
+placeMe : capitaine en (1,6)
+placeMe : eclaireur en (2,7)
+findCase : recherche de la case [0];[3]
+findCase : recherche de la case [1];[3]
+___________________________________________________
+@auteur: Dochot.be
+#projet Bachelier Informatique Umons 2019

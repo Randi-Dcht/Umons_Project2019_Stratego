@@ -1,0 +1,13 @@
+Rapport d'erreur du jeu Stratego 2019
+________________________________________________________
+Merci d'envoyer ce fichier via le lien à http://projetstratego.dchtrnd.be/index.html#Lien/
+Veillez nous pour le dérangemet occasioné lors de cette erreur
+________________________________________________________
+ * l'erreur s'est produite : 2019/05/15 12:43:27
+ * sous le système d'exploitation : Linux
+ * Cette erreur est la 1ème erreur
+ * Localisation de l'erreur est :  BoardGui
+ * Ce que java dit de l'erreur :  java.lang.NullPointerException: Input stream must not be null
+________________________________________________________
+@auteur: Dochot.be
+#projet 2019 Bachelier Informatique Umons sur Stratego

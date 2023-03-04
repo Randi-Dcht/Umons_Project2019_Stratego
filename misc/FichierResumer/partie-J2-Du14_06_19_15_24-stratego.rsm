@@ -1,0 +1,58 @@
+Une nouvelle partie démarre ...
+nom de la méthode   :      explication
+___________________________________________________
+MainGui : choix de partie à 2
+createTray : création d'un tableau de 10 sur 10
+createBarriers : création de 8 obstacles.
+findCase : recherche de la case [2];[4]
+findCase : recherche de la case [3];[4]
+findCase : recherche de la case [2];[5]
+findCase : recherche de la case [3];[5]
+findCase : recherche de la case [6];[4]
+findCase : recherche de la case [7];[4]
+findCase : recherche de la case [6];[5]
+findCase : recherche de la case [7];[5]
+Player : le joueur est joueur1-Speudo de couleur rouge
+Player : le joueur est joueur2-Speudo de couleur vert
+createPiece : création des pieces du joueur : joueur1-Speudo de couleur rouge avec 9 pièces
+HumanPlayer-assignment : le joueur qui suit joueur1-Speudo de couleur rouge est joueur2-Speudo de couleur vert
+createPiece : création des pieces du joueur : joueur2-Speudo de couleur vert avec 9 pièces
+HumanPlayer-assignment : le joueur qui suit joueur2-Speudo de couleur vert est joueur1-Speudo de couleur rouge
+placeMe : drapeau en (2,1)
+placeMe : bombe en (8,2)
+placeMe : eclaireur en (3,3)
+placeMe : eclaireur en (5,3)
+placeMe : capitaine en (8,0)
+placeMe : capitaine en (3,2)
+placeMe : capitaine en (7,1)
+placeMe : sergent en (5,1)
+placeMe : sergent en (1,2)
+placeMe : drapeau en (3,9)
+placeMe : bombe en (6,7)
+placeMe : eclaireur en (5,7)
+placeMe : eclaireur en (0,7)
+placeMe : capitaine en (6,9)
+placeMe : capitaine en (7,8)
+placeMe : capitaine en (9,7)
+placeMe : sergent en (2,7)
+placeMe : sergent en (4,8)
+findCase : recherche de la case [5];[1]
+findCase : recherche de la case [5];[0]
+displacement : [sergent à joueur1-Speudo de couleur rouge(5,1)] veut déplace d'une case
+displacement : déplacement de [sergent à joueur1-Speudo de couleur rouge(5,1)] à (5,0)
+findCase : recherche de la case [5];[7]
+findCase : recherche de la case [5];[6]
+displacement : déplacement de [eclaireur à joueur2-Speudo de couleur vert(5,7)] à (5,6)
+findCase : recherche de la case [5];[3]
+findCase : recherche de la case [7];[3]
+displacement : déplacement de [eclaireur à joueur1-Speudo de couleur rouge(5,3)] à (7,3)
+findCase : recherche de la case [3];[7]
+findCase : recherche de la case [2];[7]
+findCase : recherche de la case [3];[7]
+displacement : [sergent à joueur2-Speudo de couleur vert(2,7)] veut déplace d'une case
+displacement : déplacement de [sergent à joueur2-Speudo de couleur vert(2,7)] à (3,7)
+findCase : recherche de la case [8];[3]
+findCase : recherche de la case [8];[3]
+___________________________________________________
+@auteur: Dochot.be
+#projet Bachelier Informatique Umons 2019
